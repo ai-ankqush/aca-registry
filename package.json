@@ -1,0 +1,17 @@
+{
+  "name": "@aca/registry",
+  "version": "0.1.0",
+  "description": "AI Control Architecture — add-on registry: two tracks (open/curated), Ed25519 package signing + integrity verification.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/registry.mjs"
+  },
+  "bin": {
+    "aca-registry": "./bin/aca-registry.mjs"
+  },
+  "files": ["src", "bin"],
+  "scripts": {
+    "test": "node --test"
+  }
+}
